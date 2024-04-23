@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap5</title>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <h1>Cosméticos e Cia</h1>
+                <button type="button" class="navbar-toggler navbar-dark " data-bs-toggle="collapse" data-bs-target="#collapse-navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="collapse-navbar">
+                    <ul class="nav nav-pills navbar-nav">   
+                        <li class="nav-item">
+                            <a href="#aboutSection" class="nav-link">Sobre</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#sectionProduct" class="nav-link">Produtos</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+    </header>
+
+
+    <main>
+        <section class="container-fluid" id="carouselSection">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img src="/fotos/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img src="/fotos/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img src="/fotos/carousel4.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="aboutSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h2>Sobre</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-md-12" >
+                       <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellendus at voluptatem, cumque perferendis aliquam quam quis aut praesentium. Fugit nesciunt exercitationem in iure hic cupiditate eveniet. Reiciendis, ex optio.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, necessitatibus saepe repudiandae ad cumque optio debitis explicabo harum aut sequi ratione, repellat blanditiis, quisquam quasi magni vitae temporibus deleniti voluptatum.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, necessitatibus saepe repudiandae ad cumque optio debitis explicabo harum aut sequi ratione, repellat blanditiis, quisquam quasi magni vitae temporibus deleniti voluptatum.</p>
+
+                     
+                    </div>
+
+                    <div class=" col-sm-12 col-md-12 col-lg-6">
+                        <img id="img1" src="/fotos/img_destaque.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sectionProduct">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm 12 col-md-12 col-lg-12" >
+                        <h2>Produtos</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;;
+                        ">
+                            <img src="/fotos/produto.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <button class="btn btn-light">Solicitar</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 align-content-sm-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/fotos/produto.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bottle Silver</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <button class="btn btn-light">Solicitar</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 align-content-sm-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/fotos/produto.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <button class="btn btn-light">Solicitar</button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 align-content-sm-center">
+                        <div class="card " style="width: 18rem; margin-top: 16px;">
+                            <img src="/fotos/produto.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <button class="btn btn-light">Solicitar</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    
+       
+
+
+ 
+       
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
